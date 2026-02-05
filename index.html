@@ -13,7 +13,23 @@
     h1,h2 { font-family:'Playfair Display', serif; }
     .hero { height:100vh; display:flex; flex-direction:column; justify-content:center;}
     .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
-    .projects img { width:100%; height:200px; object-fit:cover;}
+    .projects a {
+  display:block;
+  overflow:hidden;
+}
+
+.projects img {
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  transition: transform 0.4s ease;
+  cursor:pointer;
+}
+
+.projects a:hover img {
+  transform: scale(1.08);
+}
+
     footer { text-align:center; padding:40px; background:#f5f5f5;}
   </style>
 </head>
@@ -49,40 +65,29 @@
   <h2>Projects</h2>
 
   <div class="projects">
-    <img src="images/project-01.jpg" alt="Architectural project">
-    <img src="images/project-02.jpg" alt="Architectural project">
-
-    <img src="images/project-04.jpg" alt="Architectural project">
-    <img src="images/project-05.jpg" alt="Architectural project">
-
-    <img src="images/project-07.jpg" alt="Architectural project">
-    <img src="images/project-08.jpg" alt="Architectural project">
-
-    <img src="images/project-11.jpg" alt="Interior design project">
-    <img src="images/project-12.jpg" alt="Architectural project">
-
-    <img src="images/project-13.jpeg" alt="Architectural project">
-    <img src="images/project-14.jpg" alt="Architectural project">
-
-    <img src="images/project-15.PNG" alt="Architectural project">
-    <img src="images/project-16.PNG" alt="Architectural project">
-
-    <img src="images/project-21.png" alt="Interior design project">
-    <img src="images/project-23.jpeg" alt="Interior design project">
-
-    <img src="images/project-24.jpeg" alt="Interior design project">
-    <img src="images/project-25.jpg" alt="Interior design project">
-
-    <img src="images/project-27.jpg" alt="Interior design project">
-    <img src="images/project-28.jpg" alt="Interior design project">
-
-    <img src="images/project-29.jpg" alt="Interior design project">
-    <img src="images/project-30.jpg" alt="Interior design project">
-
-    <img src="images/project-31.jpeg" alt="Interior design project">
-    <img src="images/project-34.jpg" alt="Interior design project">
-
-    <img src="images/project-36.jpg" alt="Architectural project">
+    <a href="images/project-01.jpg" target="_blank"><img src="images/project-01.jpg"></a>
+    <a href="images/project-02.jpg" target="_blank"><img src="images/project-02.jpg"></a>
+    <a href="images/project-04.jpg" target="_blank"><img src="images/project-04.jpg"></a>
+    <a href="images/project-05.jpg" target="_blank"><img src="images/project-05.jpg"></a>
+    <a href="images/project-07.jpg" target="_blank"><img src="images/project-07.jpg"></a>
+    <a href="images/project-08.jpg" target="_blank"><img src="images/project-08.jpg"></a>
+    <a href="images/project-11.jpg" target="_blank"><img src="images/project-11.jpg"></a>
+    <a href="images/project-12.jpg" target="_blank"><img src="images/project-12.jpg"></a>
+    <a href="images/project-13.jpeg" target="_blank"><img src="images/project-13.jpeg"></a>
+    <a href="images/project-14.jpg" target="_blank"><img src="images/project-14.jpg"></a>
+    <a href="images/project-15.PNG" target="_blank"><img src="images/project-15.PNG"></a>
+    <a href="images/project-16.PNG" target="_blank"><img src="images/project-16.PNG"></a>
+    <a href="images/project-21.png" target="_blank"><img src="images/project-21.png"></a>
+    <a href="images/project-23.jpeg" target="_blank"><img src="images/project-23.jpeg"></a>
+    <a href="images/project-24.jpeg" target="_blank"><img src="images/project-24.jpeg"></a>
+    <a href="images/project-25.jpg" target="_blank"><img src="images/project-25.jpg"></a>
+    <a href="images/project-27.jpg" target="_blank"><img src="images/project-27.jpg"></a>
+    <a href="images/project-28.jpg" target="_blank"><img src="images/project-28.jpg"></a>
+    <a href="images/project-29.jpg" target="_blank"><img src="images/project-29.jpg"></a>
+    <a href="images/project-30.jpg" target="_blank"><img src="images/project-30.jpg"></a>
+    <a href="images/project-31.jpeg" target="_blank"><img src="images/project-31.jpeg"></a>
+    <a href="images/project-34.jpg" target="_blank"><img src="images/project-34.jpg"></a>
+    <a href="images/project-36.jpg" target="_blank"><img src="images/project-36.jpg"></a>
   </div>
 </section>
 
